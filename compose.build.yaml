@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  opengrok:
+    image: opengrok-git
+    build:
+      context: https://github.com/oracle/opengrok.git
