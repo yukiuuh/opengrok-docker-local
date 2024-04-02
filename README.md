@@ -1,7 +1,14 @@
 # opengrok-docker-local
 
 ## Requirements
+
 - docker compose
+
+## Install
+
+```sh
+git clone git@github.com:yukiuuh/opengrok-docker-local.git
+```
 
 ## Usage
 
@@ -12,8 +19,8 @@
 # view logs
 ./compose logs -f
 
-# add repositories
-./compose git clone https://github.com/oracle/opengrok.git -b opengrok-main
+# add repositories(exmaple)
+./compose git clone https://github.com/oracle/opengrok.git -b master opengrok-master
 
 # reindex
 ./compose reindex
